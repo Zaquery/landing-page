@@ -1,0 +1,42 @@
+* {
+    padding: 0 0;
+    margin: 0;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.headerbody>.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+}
+
+.headerbody>.titlesub {
+    font-size: 18px;
+    color:#e5e7eb
+}
+
+.headerbody {
+    background-color: #1f2937;
+}
