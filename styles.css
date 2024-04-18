@@ -32,6 +32,16 @@ a {
     font-size: 18px;
 }
 
+.headerbutton button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 .headerbody {
     display: flex;
     justify-content: space-evenly;
@@ -90,17 +100,41 @@ a {
 .quote {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
+    margin: auto;
+    margin-top: 50px;
+    width: 800px;
 }
 
-.author {
+.modal {
     display: flex;
-    justify-content:flex-end;
-    align-content: center;
-    background-color: #e5e7eb;
-    font-size: 36px;
-    font-style: italic; 
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 800px;
+    height: 100px;
+    background-color: #3882f6;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
 }
+
+.text, .subscribe {
+    display: flex;
+    justify-content: space-between;
+    color:#f9faf8;
+}
+
+.subscribe button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid #f9faf8;
+}
+
